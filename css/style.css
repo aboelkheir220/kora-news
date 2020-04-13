@@ -1,0 +1,223 @@
+body::-webkit-scrollbar {
+  width: .7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #777373f7;
+  outline: 1px solid slategrey;
+}
+/* start nav bar  */
+.navbar{
+    background: black
+}
+.navbar-brand span:first-child{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.navbar-brand span:last-child{
+    font-size: 40px;
+    color: red;
+}
+.navbar .container .collapse ul li .nav-link{
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+    margin-left: 10px;
+}
+/* end nav bar  */
+
+/* start news  */
+.bg-light{
+    margin-top: 20px
+}
+.news{
+    background:#d0c3c314;
+    margin-bottom: 30px
+}
+.news .row{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 15px
+}
+.news .card{
+    margin: 10px;
+    width: 280px;
+    height: 300px;
+    opacity: .6
+}
+.news .btn{
+    margin-top: 40px;
+    background: #a20910
+}
+.news .card .card-img-top{
+    width: 280px;
+    height: 100px;
+}
+/* end news  */
+/* start statistic */
+.navbar .brand{
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 50px
+}
+.statistic .stat{
+    margin-bottom: 50px
+}
+.statistic h1{
+    background: black;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 30px;
+}
+.statistic .score img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.statistic .score .saif{
+    margin-left: 37px
+}
+.statistic .score .shreif{
+    margin-left: 25px
+}
+.statistic .score p{
+    margin-right: 70px;
+    line-height: 2.5
+}
+.statistic .score h2{
+    font-size: 18px;
+    line-height: 2.5
+}
+.statistic .score a{
+    margin-left: 45px;
+    line-height: 2.5;
+    color: black;
+    cursor: auto;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.statistic .team img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.statistic .team h2{
+    font-size: 18px;
+    line-height: 2.5;
+    margin-right: 20px;
+}
+.statistic .team p{
+    margin-right: 70px;
+    line-height: 2.5
+}
+.statistic .team a{
+    margin-left: 57px;
+    line-height: 2.5;
+    color: black;
+    cursor: auto;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.statistic .match img{
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.statistic .match p{
+    line-height: 2.5;
+    margin-left: 10px
+}
+.statistic .match .time p{
+    line-height: .5;
+    margin-top: 5px
+}
+.statistic .match{
+    margin: 2.3px
+}
+.statistic .btn{
+   background:  #0e927d
+}
+/* end statistic */
+/* start priemer statistic */
+.statistic-premier .match p {
+    line-height: 2.5;
+    margin-left: 4px;
+}
+.statistic-premier .score .salah{
+margin-left: 27px
+}
+/* end priemer statistic */
+/*start league */
+.league{
+    background: black;
+    color: white;
+    font-family: cursive;
+    font-size: 22px;
+}
+.league h3{
+    font-weight: 800;
+    margin: 30px;
+    padding: 70px;
+    font-size: 40px;
+    margin-bottom: 1px;
+    cursor: pointer
+}
+.league h4{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    cursor: pointer
+}
+.league p{
+    font-size: 18px;
+    cursor: pointer
+}
+}
+/*end league */
+/* start copyright */
+.copyright{
+    border: 1px solid #c0c0c0;
+    padding: 10px
+}
+.copyright .col{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.3
+}
+.copyright ul{
+    margin: 0
+}
+.copyright ul li{
+    display: inline-block;
+}
+.copyright ul li a{
+    color: #777;
+    display: inline-block;
+    margin-left: 50px; 
+    font-size: 20px
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-twitter{
+        color: #04f3f3
+}
+.fa-youtube{
+    color: red
+}
+.fa-facebook{
+    color: darkblue
+}
+/* end copyright */
